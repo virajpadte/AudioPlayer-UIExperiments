@@ -13,6 +13,20 @@
 		5519C4C21E465FB70097C986 /* UIDesignTesting.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5519C4C01E465FB70097C986 /* UIDesignTesting.xcdatamodeld */; };
 		5519C4C41E465FB70097C986 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5519C4C31E465FB70097C986 /* Assets.xcassets */; };
 		5519C4C71E465FB70097C986 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5519C4C51E465FB70097C986 /* LaunchScreen.storyboard */; };
+		554BFD721E469DFD008ACF84 /* Kasabian - Underdog.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 554BFD711E469DFD008ACF84 /* Kasabian - Underdog.mp3 */; };
+		554BFD931E47F1F1008ACF84 /* AlbumCover.png in Resources */ = {isa = PBXBuildFile; fileRef = 554BFD861E47F1F1008ACF84 /* AlbumCover.png */; };
+		554BFD941E47F1F1008ACF84 /* blurred.png in Resources */ = {isa = PBXBuildFile; fileRef = 554BFD871E47F1F1008ACF84 /* blurred.png */; };
+		554BFD951E47F1F1008ACF84 /* gradient.png in Resources */ = {isa = PBXBuildFile; fileRef = 554BFD881E47F1F1008ACF84 /* gradient.png */; };
+		554BFD961E47F1F1008ACF84 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 554BFD891E47F1F1008ACF84 /* menu.png */; };
+		554BFD971E47F1F1008ACF84 /* mute.png in Resources */ = {isa = PBXBuildFile; fileRef = 554BFD8A1E47F1F1008ACF84 /* mute.png */; };
+		554BFD981E47F1F1008ACF84 /* next.png in Resources */ = {isa = PBXBuildFile; fileRef = 554BFD8B1E47F1F1008ACF84 /* next.png */; };
+		554BFD991E47F1F1008ACF84 /* overlay1.png in Resources */ = {isa = PBXBuildFile; fileRef = 554BFD8C1E47F1F1008ACF84 /* overlay1.png */; };
+		554BFD9A1E47F1F1008ACF84 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 554BFD8D1E47F1F1008ACF84 /* pause.png */; };
+		554BFD9B1E47F1F1008ACF84 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 554BFD8E1E47F1F1008ACF84 /* play.png */; };
+		554BFD9C1E47F1F1008ACF84 /* pre.png in Resources */ = {isa = PBXBuildFile; fileRef = 554BFD8F1E47F1F1008ACF84 /* pre.png */; };
+		554BFD9D1E47F1F1008ACF84 /* Repeat.png in Resources */ = {isa = PBXBuildFile; fileRef = 554BFD901E47F1F1008ACF84 /* Repeat.png */; };
+		554BFD9E1E47F1F1008ACF84 /* shuffle.png in Resources */ = {isa = PBXBuildFile; fileRef = 554BFD911E47F1F1008ACF84 /* shuffle.png */; };
+		554BFD9F1E47F1F1008ACF84 /* volume.png in Resources */ = {isa = PBXBuildFile; fileRef = 554BFD921E47F1F1008ACF84 /* volume.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +38,20 @@
 		5519C4C31E465FB70097C986 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5519C4C61E465FB70097C986 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5519C4C81E465FB70097C986 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		554BFD711E469DFD008ACF84 /* Kasabian - Underdog.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Kasabian - Underdog.mp3"; sourceTree = "<group>"; };
+		554BFD861E47F1F1008ACF84 /* AlbumCover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AlbumCover.png; sourceTree = "<group>"; };
+		554BFD871E47F1F1008ACF84 /* blurred.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blurred.png; sourceTree = "<group>"; };
+		554BFD881E47F1F1008ACF84 /* gradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gradient.png; sourceTree = "<group>"; };
+		554BFD891E47F1F1008ACF84 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		554BFD8A1E47F1F1008ACF84 /* mute.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mute.png; sourceTree = "<group>"; };
+		554BFD8B1E47F1F1008ACF84 /* next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = next.png; sourceTree = "<group>"; };
+		554BFD8C1E47F1F1008ACF84 /* overlay1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = overlay1.png; sourceTree = "<group>"; };
+		554BFD8D1E47F1F1008ACF84 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		554BFD8E1E47F1F1008ACF84 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		554BFD8F1E47F1F1008ACF84 /* pre.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pre.png; sourceTree = "<group>"; };
+		554BFD901E47F1F1008ACF84 /* Repeat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Repeat.png; sourceTree = "<group>"; };
+		554BFD911E47F1F1008ACF84 /* shuffle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shuffle.png; sourceTree = "<group>"; };
+		554BFD921E47F1F1008ACF84 /* volume.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = volume.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +84,8 @@
 		5519C4B81E465FB70097C986 /* UIDesignTesting */ = {
 			isa = PBXGroup;
 			children = (
+				554BFD851E47F1F1008ACF84 /* images */,
+				554BFD711E469DFD008ACF84 /* Kasabian - Underdog.mp3 */,
 				5519C4B91E465FB70097C986 /* AppDelegate.swift */,
 				5519C4BB1E465FB70097C986 /* ViewController.swift */,
 				5519C4BD1E465FB70097C986 /* Main.storyboard */,
@@ -65,6 +95,26 @@
 				5519C4C01E465FB70097C986 /* UIDesignTesting.xcdatamodeld */,
 			);
 			path = UIDesignTesting;
+			sourceTree = "<group>";
+		};
+		554BFD851E47F1F1008ACF84 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				554BFD861E47F1F1008ACF84 /* AlbumCover.png */,
+				554BFD871E47F1F1008ACF84 /* blurred.png */,
+				554BFD881E47F1F1008ACF84 /* gradient.png */,
+				554BFD891E47F1F1008ACF84 /* menu.png */,
+				554BFD8A1E47F1F1008ACF84 /* mute.png */,
+				554BFD8B1E47F1F1008ACF84 /* next.png */,
+				554BFD8C1E47F1F1008ACF84 /* overlay1.png */,
+				554BFD8D1E47F1F1008ACF84 /* pause.png */,
+				554BFD8E1E47F1F1008ACF84 /* play.png */,
+				554BFD8F1E47F1F1008ACF84 /* pre.png */,
+				554BFD901E47F1F1008ACF84 /* Repeat.png */,
+				554BFD911E47F1F1008ACF84 /* shuffle.png */,
+				554BFD921E47F1F1008ACF84 /* volume.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,9 +176,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				554BFD961E47F1F1008ACF84 /* menu.png in Resources */,
+				554BFD941E47F1F1008ACF84 /* blurred.png in Resources */,
+				554BFD9A1E47F1F1008ACF84 /* pause.png in Resources */,
+				554BFD971E47F1F1008ACF84 /* mute.png in Resources */,
+				554BFD931E47F1F1008ACF84 /* AlbumCover.png in Resources */,
 				5519C4C71E465FB70097C986 /* LaunchScreen.storyboard in Resources */,
+				554BFD951E47F1F1008ACF84 /* gradient.png in Resources */,
+				554BFD981E47F1F1008ACF84 /* next.png in Resources */,
+				554BFD991E47F1F1008ACF84 /* overlay1.png in Resources */,
+				554BFD9C1E47F1F1008ACF84 /* pre.png in Resources */,
 				5519C4C41E465FB70097C986 /* Assets.xcassets in Resources */,
+				554BFD9E1E47F1F1008ACF84 /* shuffle.png in Resources */,
+				554BFD721E469DFD008ACF84 /* Kasabian - Underdog.mp3 in Resources */,
+				554BFD9D1E47F1F1008ACF84 /* Repeat.png in Resources */,
+				554BFD9B1E47F1F1008ACF84 /* play.png in Resources */,
 				5519C4BF1E465FB70097C986 /* Main.storyboard in Resources */,
+				554BFD9F1E47F1F1008ACF84 /* volume.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +365,7 @@
 				5519C4CD1E465FB70097C986 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
