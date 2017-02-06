@@ -14,8 +14,13 @@ class ViewController: UIViewController {
     @IBOutlet weak var volume: UISlider!
     @IBOutlet weak var navigationBar: UINavigationBar!
     @IBOutlet weak var titleBar: UINavigationItem!
+    @IBOutlet weak var albumName: UILabel!
     
     @IBOutlet weak var playPauseButton: UIButton!
+    
+    //timer object
+    
+    var timer = Timer()
     
     var player = AVAudioPlayer()
     
@@ -26,9 +31,23 @@ class ViewController: UIViewController {
         self.navigationBar.shadowImage = UIImage()
         self.navigationBar.isTranslucent = true
         self.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white]
+    
+        //create a duplicate frame
         
- 
+        let newLabelFrame = CGRect(x: self.albumName.frame.minX, y: self.albumName.frame.minY, width: self.albumName.frame.width, height: self.albumName.frame.height)
+        let newLabel = UILabel(frame: newLabelFrame)
+        newLabel.text = self.albumName.text
+        newLabel.center = CGPoint(x: self.view.bounds.width + self.albumName.center.x, y: self.albumName.center.y)
+        newLabel.lineBreakMode = NSLineBreakMode.byClipping
+        newLabel.textColor = albumName.textColor
+        newLabel.alpha = 0.55
         
+        self.view.addSubview(newLabel)
+        let orgCenterX = self.albumName.center.x
+        UIView.animate(withDuration: 15, delay: 3, options: .repeat, animations: {
+            self.albumName.center.x = 0 - self.albumName.center.x
+            newLabel.center.x = orgCenterX
+        }, completion: nil)
         
     }
 
@@ -49,6 +68,15 @@ class ViewController: UIViewController {
                 try player = AVAudioPlayer(contentsOf: location)
                 print("no error")
                 player.play()
+                
+                //after 7 seconds of playing the song start scrolling the text
+                
+                //scroll text
+                
+                
+                
+                //timer = Timer(timeInterval: 5, target: self, selector: #selector(scrollText) , userInfo: nil, repeats: false)
+                
                 
                 //if played change the button image and change the tag
                 playPauseButton.setImage(UIImage(named: "pause.png"), for: [])
@@ -75,6 +103,15 @@ class ViewController: UIViewController {
     @IBAction func volumeSlider(_ sender: Any) {
         
         player.setVolume(volume.value, fadeDuration: 0.2)
+    }
+    
+    func scrollText(){
+        
+        
+        
+        //wait for 2 secs and again scroll
+        
+        
     }
     
 }
