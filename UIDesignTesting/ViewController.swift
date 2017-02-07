@@ -33,7 +33,6 @@ class ViewController: UIViewController {
         self.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white]
     
         //create a duplicate frame
-        
         let newLabelFrame = CGRect(x: self.albumName.frame.minX, y: self.albumName.frame.minY, width: self.albumName.frame.width, height: self.albumName.frame.height)
         let newLabel = UILabel(frame: newLabelFrame)
         newLabel.text = self.albumName.text
@@ -48,6 +47,17 @@ class ViewController: UIViewController {
             self.albumName.center.x = 0 - self.albumName.center.x
             newLabel.center.x = orgCenterX
         }, completion: nil)
+        
+        
+        //add a mask for the fade effect at the edges
+        let gradient = CAGradientLayer()
+        gradient.frame = self.view.bounds
+        gradient.colors = [UIColor.white.withAlphaComponent(0.7).cgColor, UIColor.white.withAlphaComponent(0.0).cgColor, UIColor.white.withAlphaComponent(0.0).cgColor,UIColor.white.withAlphaComponent(0.7).cgColor]
+        gradient.locations = [0.0,0.03,0.97,1]
+        //set gradient direction
+        gradient.startPoint = CGPoint(x: 0.0, y: 0.5)
+        gradient.endPoint = CGPoint(x: 1.0, y: 0.5)
+        self.view.layer.addSublayer(gradient)
         
     }
 
@@ -72,12 +82,7 @@ class ViewController: UIViewController {
                 //after 7 seconds of playing the song start scrolling the text
                 
                 //scroll text
-                
-                
-                
                 //timer = Timer(timeInterval: 5, target: self, selector: #selector(scrollText) , userInfo: nil, repeats: false)
-                
-                
                 //if played change the button image and change the tag
                 playPauseButton.setImage(UIImage(named: "pause.png"), for: [])
                 playPauseButton.tag = 1
